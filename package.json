@@ -1,0 +1,17 @@
+{
+  "name": "meteorological-data-extraction",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon -e js,json,yaml index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cheerio": "^1.0.0-rc.10",
+    "express": "^4.18.1",
+    "flatted": "^3.2.5",
+    "nodemon": "^2.0.16"
+  }
+}
